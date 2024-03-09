@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-09T17:38:53 IST" name="Default suite" finished-at="2024-03-09T17:39:31 IST" duration-ms="37783">
+    <groups>
+      <group name="sanity">
+        <method signature="TravelInsuranceTest.CarInsurance()[pri:10, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="CarInsurance" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.HealthInsurance()[pri:12, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="HealthInsurance" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.InsuranceData()[pri:8, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="InsuranceData" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.SelectDestination()[pri:3, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="SelectDestination" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.SelectingStudentTrip()[pri:7, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="SelectingStudentTrip" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.SwitchChild()[pri:9, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="SwitchChild" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.ViewPlan()[pri:6, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="ViewPlan" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.fillingForm()[pri:11, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="fillingForm" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.testSelectDate()[pri:4, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="testSelectDate" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.testSelectNumberOfTravellers()[pri:5, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="testSelectNumberOfTravellers" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.testSwitchToChildWindow()[pri:2, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="testSwitchToChildWindow" class="policyBazaar.test.TravelInsuranceTest"/>
+        <method signature="TravelInsuranceTest.testTravelInsuranceButtonClick()[pri:1, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" name="testTravelInsuranceButtonClick" class="policyBazaar.test.TravelInsuranceTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-03-09T17:38:53 IST" name="Default test" finished-at="2024-03-09T17:39:31 IST" duration-ms="37783">
+      <class name="policyBazaar.test.TravelInsuranceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:38:53 IST" name="setup" finished-at="2024-03-09T17:39:01 IST" duration-ms="7844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:01 IST" name="setUp" finished-at="2024-03-09T17:39:02 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTravelInsuranceButtonClick()[pri:1, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:02 IST" name="testTravelInsuranceButtonClick" finished-at="2024-03-09T17:39:02 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTravelInsuranceButtonClick -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:02 IST" name="afterMethod" finished-at="2024-03-09T17:39:02 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTravelInsuranceButtonClick status=SUCCESS method=TravelInsuranceTest.testTravelInsuranceButtonClick()[pri:1, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSwitchToChildWindow()[pri:2, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:02 IST" name="testSwitchToChildWindow" finished-at="2024-03-09T17:39:02 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwitchToChildWindow -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:02 IST" name="afterMethod" finished-at="2024-03-09T17:39:03 IST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSwitchToChildWindow status=SUCCESS method=TravelInsuranceTest.testSwitchToChildWindow()[pri:2, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SelectDestination()[pri:3, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:03 IST" name="SelectDestination" finished-at="2024-03-09T17:39:07 IST" duration-ms="4079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDestination -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:07 IST" name="afterMethod" finished-at="2024-03-09T17:39:07 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectDestination status=SUCCESS method=TravelInsuranceTest.SelectDestination()[pri:3, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSelectDate()[pri:4, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:07 IST" name="testSelectDate" finished-at="2024-03-09T17:39:08 IST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectDate -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:08 IST" name="afterMethod" finished-at="2024-03-09T17:39:08 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectDate status=SUCCESS method=TravelInsuranceTest.testSelectDate()[pri:4, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testSelectNumberOfTravellers()[pri:5, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:08 IST" name="testSelectNumberOfTravellers" finished-at="2024-03-09T17:39:09 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectNumberOfTravellers -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:09 IST" name="afterMethod" finished-at="2024-03-09T17:39:10 IST" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectNumberOfTravellers status=SUCCESS method=TravelInsuranceTest.testSelectNumberOfTravellers()[pri:5, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="ViewPlan()[pri:6, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:10 IST" name="ViewPlan" finished-at="2024-03-09T17:39:10 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewPlan -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:10 IST" name="afterMethod" finished-at="2024-03-09T17:39:11 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewPlan status=SUCCESS method=TravelInsuranceTest.ViewPlan()[pri:6, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SelectingStudentTrip()[pri:7, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:11 IST" name="SelectingStudentTrip" finished-at="2024-03-09T17:39:18 IST" duration-ms="7186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectingStudentTrip -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:18 IST" name="afterMethod" finished-at="2024-03-09T17:39:18 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectingStudentTrip status=SUCCESS method=TravelInsuranceTest.SelectingStudentTrip()[pri:7, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="InsuranceData()[pri:8, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:18 IST" name="InsuranceData" finished-at="2024-03-09T17:39:22 IST" duration-ms="3851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsuranceData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:22 IST" name="afterMethod" finished-at="2024-03-09T17:39:22 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InsuranceData status=SUCCESS method=TravelInsuranceTest.InsuranceData()[pri:8, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SwitchChild()[pri:9, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:22 IST" name="SwitchChild" finished-at="2024-03-09T17:39:22 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchChild -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:22 IST" name="afterMethod" finished-at="2024-03-09T17:39:22 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SwitchChild status=SUCCESS method=TravelInsuranceTest.SwitchChild()[pri:9, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="CarInsurance()[pri:10, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:22 IST" name="CarInsurance" finished-at="2024-03-09T17:39:27 IST" duration-ms="5196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarInsurance -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:27 IST" name="afterMethod" finished-at="2024-03-09T17:39:28 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CarInsurance status=SUCCESS method=TravelInsuranceTest.CarInsurance()[pri:10, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="fillingForm()[pri:11, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:28 IST" name="fillingForm" finished-at="2024-03-09T17:39:29 IST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingForm -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:29 IST" name="afterMethod" finished-at="2024-03-09T17:39:29 IST" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillingForm status=SUCCESS method=TravelInsuranceTest.fillingForm()[pri:11, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="HealthInsurance()[pri:12, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:29 IST" name="HealthInsurance" finished-at="2024-03-09T17:39:30 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HealthInsurance -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:30 IST" name="afterMethod" finished-at="2024-03-09T17:39:30 IST" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HealthInsurance status=SUCCESS method=TravelInsuranceTest.HealthInsurance()[pri:12, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:policyBazaar.test.TravelInsuranceTest@2dc54ad4]" started-at="2024-03-09T17:39:30 IST" name="tearDown" finished-at="2024-03-09T17:39:31 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- policyBazaar.test.TravelInsuranceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
